@@ -2,6 +2,10 @@
 /* Header */
 /*--------*/
 
+.navbar {
+  margin-bottom: -24px;
+}
+
 /* Logo */
 
 .navbar-header {
@@ -16,6 +20,10 @@
   display: inherit;
 }
 
+svg {
+  margin-top: -16px;
+}
+
 /* Page Nav */
 
 .navbar-default {
@@ -23,7 +31,7 @@
 }
 
 nav {
-  margin-left: 30px;
+  margin: -46px 0 0 30px;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -37,10 +45,33 @@ nav {
   float: right;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 14px 30px 0 0;
   li {
     float: right;
+    padding: 0 10px;
   }
+  .demo-link {
+    border: 1px solid #3d3d3d;
+    padding: 6px 1.4em;
+    border-radius: 3px;
+  }
+  .signin-link {
+    border: 1px solid @brand-primary;
+    background-color: @brand-primary;
+    color: #fff;
+    padding: 6px 1.4em;
+    border-radius: 3px;
+    }
 }
 
-/* */
+/*--------*/
+/* Hero */
+/*--------*/
+
+/* BG */
+
+#home-hero {
+  background-color: @brand-primary;
+  color: white;
+  height: 400px;
+}

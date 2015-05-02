@@ -32,8 +32,8 @@
     endif;
     ?>
     <ul class="primary-site-nav-sign-in">
-      <li class="nav-item"><a class="link demo-link h5-rebranded" href="http://grow.kissmetrics.com/demo-request">Request a demo</a></li>
-      <li class="nav-item"><a class="link signin-link h5-rebranded" href="https://app.kissmetrics.com/" title="Sign into KISSmetrics">Sign in</a></li>
+      <li class="nav-item"><a class="demo-link" href="#">Reel</a></li>
+      <li class="nav-item"><a class="signin-link" href="#" title="#">Request a quote</a></li>
     </ul>
   </nav>
 
