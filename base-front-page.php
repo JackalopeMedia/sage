@@ -20,6 +20,21 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/home-hero');
     ?>
+
+    <section id="recent-work">
+        <div class="row">
+          <div class="work work-one col-sm-4 col-xs-12">
+            <h2>test</h2>
+          </div>
+          <div class="work work-two col-sm-4 col-xs-12">
+            <h2>test</h2>
+          </div>
+          <div class="work work-three col-sm-4 col-xs-12">
+            <h2>test</h2>
+          </div>
+        </div>
+    </section>
+
     <div class="wrap container" role="document">
       <div class="content row">
         <main class="main" role="main">
@@ -30,22 +45,6 @@ use Roots\Sage\Wrapper;
             <?php include Wrapper\sidebar_path(); ?>
           </aside><!-- /.sidebar -->
         <?php endif; ?>
-
-        <section id="recent-work">
-          <div class="wrap container">
-            <div class="row">
-              <div class="work work-one col-sm-4 col-xs-12">
-                <h2>test</h2>
-              </div>
-              <div class="work work-two col-sm-4 col-xs-12">
-                <h2>test</h2>
-              </div>
-              <div class="work work-three col-sm-4 col-xs-12">
-                <h2>test</h2>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <section class="section-customers">
           <p class="p-customers">Over 69 companies use The Brute Squad to increase their marketing ROI.</p>
@@ -69,6 +68,20 @@ use Roots\Sage\Wrapper;
               </div>
             </div>
           </div>
+        </section>
+
+        <section class="form">
+          <address>
+            <strong>Twitter, Inc.</strong><br>
+            795 Folsom Ave, Suite 600<br>
+            San Francisco, CA 94107<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+
+          <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">first.last@example.com</a>
+          </address>
         </section>
 
       </div><!-- /.content -->
