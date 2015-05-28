@@ -155,3 +155,19 @@ p {
   -webkit-background-clip: padding-box;
   background-clip:         padding-box;
 } */
+
+
+// ----------------------/
+/* Media Queries */
+// ----------------------/
+
+// Un-comment this to enable specific display media queries
+.no-lg {
+  display: inherit;
+  @media (min-width: @screen-lg-min) {
+    display: none;
+  }
+  @media (min-width: 1600px) {
+    display: inherit;
+  }
+}
